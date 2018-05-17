@@ -5,10 +5,10 @@ from distutils.dir_util import mkpath,copy_tree,remove_tree
 from os.path import isdir
 
 # Directory to watch and copy when modified in any way
-SRC = "/mnt/d/Google Drive/Projects/Worship"
+SRC = "./Google Drive/Projects"
 
 # Directory to delete and replace with copied SRC contents
-DEST = "/mnt/d/OneDrive/Worship"
+DEST = "./OneDrive/Projects"
 
 # Handles the event when the SRC directory is modified in any way
 def handle_event(notifier=None):
